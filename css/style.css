@@ -289,6 +289,7 @@ select.input { appearance: none; background-image: linear-gradient(45deg, transp
 .file-drop input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 .check { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; font-size: 0.88rem; color: var(--muted); }
 .check input { width: 18px; height: 18px; margin: 3px 0 0; accent-color: var(--accent); }
+.form-body { display: grid; gap: 18px; }
 .form-success { display: none; gap: 12px; text-align: left; }
 .form.sent .form-body { display: none; }
 .form.sent .form-success { display: grid; }

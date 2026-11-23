@@ -49,7 +49,7 @@
   function formHTML(idp, picked) {
     return '' +
       '<form class="form" novalidate data-form>' +
-      '<div class="form-body" style="display:grid;gap:18px">' +
+      '<div class="form-body">' +
       (picked ? '<div class="picked"><i class="ph ph-check" aria-hidden="true"></i><span data-picked>' + esc(picked) + '</span></div>' : '') +
       '<div class="form-row two">' +
         '<div class="field"><label for="' + idp + '-name">Как к вам обращаться</label><input class="input" id="' + idp + '-name" name="name" autocomplete="name" required><span class="err">Напишите имя</span></div>' +
